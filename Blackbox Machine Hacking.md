@@ -1,3 +1,3 @@
 ```shell
-sudo bash -c 'nmap 10.129.1.5 -sS -sU -Pn -sC -sV --min-rate 1000 -p T:1-65535,U:1-6000 --open' 2>/dev/null
+sudo nmap 10.129.1.5 -sS -sU -Pn -sC -sV --min-rate 1000 -p T:1-65535,U:53,67,68,69,111,123,135,137,138,139,161,162,445,500,514,520,631,1434,1900,4500,5353 --open
 ```
